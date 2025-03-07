@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 30px;
+}
+
+.brand-header {
+    text-align: center;
+    font-family: "Snell Roundhand";
+    font-size: 60px;
+    font-weight: 500;
+    margin: 40px 0;
+}
+
+.section-links-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid black;
+    padding: 30px;
+    margin: 0;
+}
+
+.section-link {
+    font-size: 30px;
+    color: #666;
+    font-weight: bold;
+    font-family: "Futura";
+    text-decoration: none;
+}
+
+.article {
+    border-bottom: 3px solid black;
+    border-left: 3px solid black;
+    padding: 10px;
+}
+
+.large-article {
+    grid-column: 2 / 4;
+}
+
+.articles-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.story-right {
+    border-right: 2px solid black;
+}
+
+.article-header {
+    text-align: center;
+    font-weight: normal;
+    font-style: italic;
+    font-size: 30px;
+}
+
+.dog-image {
+    margin: 0 auto;
+    display: block;
+    height: 250px;
+}
