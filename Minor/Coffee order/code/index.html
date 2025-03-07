@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Coffee Masters</title>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="index.css" />
+    </head>
+    <body>
+        <nav class="page-header">
+            <img
+                src="https://btholt.github.io/complete-intro-to-web-dev-v3/images/coffee_masters_logo.png"
+                alt="Coffee masters logo"
+                class="page-header-icon"
+            />
+            <h1 class="page-header-text">Coffee Masters</h1>
+        </nav>
+        <section class="content-container">
+            <section class="content">
+                <section class="card horizontal-card">
+                    <span class="card-header">ITEMS</span>
+                    <section class="item-list">
+                        <section class="item">
+                            <span class="item-quantity">1x</span>
+                            <span class="item-name bolded-text">Capaccino</span>
+                            <span class="item-price bolded-text">$3.35</span>
+                            <span></span>
+                            <span class="item-description">Lite foam</span>
+                        </section>
+                        <hr />
+                        <section class="item">
+                            <span class="item-quantity">1x</span>
+                            <span class="item-name bolded-text">Capaccino</span>
+                            <span class="item-price bolded-text">$3.85</span>
+                            <span></span>
+                            <span class="item-description">Lite milk</span>
+                            <span></span>
+                            <span></span>
+                            <span class="item-description"
+                                >Double espresso</span
+                            >
+                            <span></span>
+                        </section>
+                        <hr />
+                        <section class="item">
+                            <span class="item-quantity">1x</span>
+                            <span class="item-name bolded-text">Croissant</span>
+                            <span class="item-price bolded-text">$2.45</span>
+                            <span></span>
+                            <span class="item-description">Butter</span>
+                        </section>
+                    </section>
+                </section>
+                <section class="vertical-cards-container">
+                    <section class="card">
+                        <span class="card-header">NAME</span>
+                        <section class="input-container">
+                            <div class="example-group">
+                                <label for="example" class="input-label"
+                                    >Name for the order</label
+                                >
+                                <input
+                                    id="example"
+                                    class="example-input"
+                                    placeholder="try typing here"
+                                />
+                            </div>
+                        </section>
+                    </section>
+                    <section class="card">
+                        <span class="card-header">PAYMENT</span>
+                        <section class="input-container">
+                            <div class="example-group">
+                                <label for="example" class="input-label"
+                                    >Card number</label
+                                >
+                                <input
+                                    id="example"
+                                    class="example-input"
+                                    placeholder="try typing here"
+                                />
+                            </div>
+                        </section>
+                        <section class="cvv-container">
+                            <div class="example-group">
+                                <label for="example" class="input-label"
+                                    >CVV number</label
+                                >
+                                <input
+                                    id="example"
+                                    class="example-input"
+                                    placeholder="try typing here"
+                                />
+                            </div>
+                        </section>
+                    </section>
+                </section>
+            </section>
+            <section class="footer">
+                <section class="amount-container">
+                    <table class="amount-table">
+                        <tr>
+                            <td>Subtotal:</td>
+                            <td>$9.65</td>
+                        </tr>
+                        <tr>
+                            <td>Tax:</td>
+                            <td>$0.82</td>
+                        </tr>
+                        <tr class="empty-row"></tr>
+                        <tr class="bolded-text" style="padding: 10px">
+                            <td>Total:</td>
+                            <td>$10.47</td>
+                        </tr>
+                    </table>
+                </section>
+                <button class="place-order-button">Place order</button>
+            </section>
+        </section>
+    </body>
+</html>

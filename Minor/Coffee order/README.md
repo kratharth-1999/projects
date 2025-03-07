@@ -1,6 +1,6 @@
-# News Times
+# Coffee Order
 
-A project demonstrating a news paper page.
+A small dashboard demonstrating a payment page of a coffee order
 
 Tech Stack:
 

@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.page-header {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #43281c;
+}
+
+.page-header-icon {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.page-header-text {
+    color: #fbf2c0;
+}
+
+.content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 0 30px 30px;
+}
+
+.amount-container {
+    width: 100%;
+}
+
+.amount-table {
+    width: 100%;
+}
+
+.bolded-text {
+    font-weight: 700;
+}
+
+.place-order-button {
+    background-color: #e4b88f;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto 0;
+    border: none;
+}
+
+.content {
+    display: flex;
+    column-gap: 2rem;
+    padding: 50px 0;
+}
+
+.empty-row {
+    height: 20px;
+}
+
+.vertical-cards-container {
+    width: 50%;
+}
+
+.horizontal-card {
+    width: 50%;
+}
+
+.card {
+    background-color: #eee1d5;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgb(0 0 0 / 0.2);
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.card-header {
+    color: #976b42;
+}
+
+.item-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 10fr 1fr;
+    padding: 10px 10px 10px;
+}
+
+.item:first-child {
+    padding-top: 20px;
+}
+
+.item-description {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #976b42;
+}
+
+hr {
+    background-color: #e4b88f;
+    width: 100%;
+    height: 2px;
+    border: none;
+}
+
+.example-group {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+
+.example-input {
+    border: 2px solid #976b42;
+    padding: 8px 30px;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #eee1d5;
+}
+
+.example-input:focus {
+    outline: none;
+}
+
+.input-label {
+    color: #976b42;
+    background-color: #eee1d5;
+    font-size: 11px;
+    position: absolute;
+    left: 25px;
+    top: -7px;
+    padding: 0 2px;
+}
+
+.input-container {
+    margin-top: 30px;
+}
+
+.cvv-container {
+    width: 40%;
+    margin-top: 20px;
+}
+
+.footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+}
