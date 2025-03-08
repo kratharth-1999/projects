@@ -9,4 +9,4 @@ Tech Stack:
 
 ## Output
 
-![output](./images/output.png "Output of the project").
+![output](./images/output.png "Output of the project")
